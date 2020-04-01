@@ -1,0 +1,18 @@
+#Defining hotel costs
+def hotel_cost(n):
+    return 140 * n
+a = hotel_cost(5)
+print(a)
+
+#defining  a plane ride cost
+def plane_ride_cost(city):
+    if city == "Cape Town":
+        return 2500
+    elif city == "Durban":
+        return 2300
+    elif city =="JHB":
+        return 2000
+    else:
+        return 1800
+
+ def rental_car_cost

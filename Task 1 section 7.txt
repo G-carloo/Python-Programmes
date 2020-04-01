@@ -1,0 +1,19 @@
+import random
+Number = random.randint(1, 100)
+Number_of_Guesses = 0
+while Number_of_Guesses < 10:
+    Guess = int(input("Enter your number:\n"))
+    Number_of_Guesses += 1
+    if Guess == Number:
+        break
+    if Guess == Number:
+        print("You win, although it took", Number_of_Guesses,"tries")
+
+    if  Guess >= Number:
+        print("Too high my man")
+
+    if Guess <= Number:
+        print("Too low my man")
+
+    else:
+        print("You lose")

@@ -1,0 +1,7 @@
+Cars drive on a road every 60 seconds
+
+A man wants to cross the road and runs at 10km/h.
+
+The cars drive at 70km/h.
+Th road has two lanes and the length is 10 km.
+ How much time does he have to cross.
