@@ -1,0 +1,31 @@
+#Adds two numbers
+def add(x, y):
+    """
+    >>> add (1,99)
+    100
+    """
+    return x + y
+
+#Subtracts two numbers
+def sub(x, y):
+    """
+    >>> mul (12,12)
+    144
+    """
+    return x - y
+
+#Divides two numbers
+def div(x, y):
+    """
+    >>> div (36,2)
+    18
+    """
+    return x // y
+
+#Multiply two numbers
+def mul(x, y):
+    """
+    >>> mul (10,9)
+    90
+    """
+    return x * y

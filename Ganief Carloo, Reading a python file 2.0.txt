@@ -1,0 +1,17 @@
+count = 0
+#opening file and reading it
+file= open('selection_sort[1].py', 'r')
+f=file.readlines()
+print(f)
+#for loop taking the comments out and putting them in a list
+for line in f:
+    line = line.partition('#')[0]
+    line = line.rstrip()
+#if statement to say if comments and white space are stripped, how many lines are there in total
+    if line.strip():
+        count += 1
+#Printing out the entire file all at once     m
+    print(line)
+    file.close()
+#printing out number of lines
+print(count)

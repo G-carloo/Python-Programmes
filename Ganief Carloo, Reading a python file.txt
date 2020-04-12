@@ -1,0 +1,15 @@
+count = 0
+#opening file and reading it
+file= open('selection_sort[1].py', 'r')
+f=file.readlines()
+print(f)
+#for loop for putting the comments in a list
+for line in f:
+    line = line.partition('#')[0]
+    line = line.rstrip()
+    if line.strip():
+        count += 1
+    print(line)
+    file.close()
+#printing out number of lines
+print(count)

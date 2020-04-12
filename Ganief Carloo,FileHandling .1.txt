@@ -1,0 +1,12 @@
+Sum=open('Sum.txt', 'w+')
+anumber1=int(input("Please Enter your First Number:\n"))
+anumber2=int(input("Please Enter your Second Number:\n"))
+Plus= anumber1 + anumber2
+Minus= anumber1 - anumber2
+Mul= anumber1 * anumber2
+Div= anumber1 // anumber2
+print("The difference is", Minius)
+print("The Quotient is", Div)
+print("The Product is", Mul)
+print("The Sum is", Plus)
+Sum.close()

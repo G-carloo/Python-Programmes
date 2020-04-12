@@ -1,0 +1,28 @@
+num1=int(input("Enter your first number:\n"))
+num2=int(input("Enter your second number:\n"))
+
+def Multipled(Multi):
+        answerm = num1 * num2
+        print("num1 Multiplied by num2 is", ansm)
+        return answerm
+
+def Divided(Div):
+    answerd = num1 // num2
+    print("num1 Divided by num2 is", ansd)
+    return answerd
+
+def Plus(Add):
+    answera = num1 + num2
+    print("num1 plus num2 is", ansa)
+    return answera
+
+def Subtracted(Sub):
+    answers = num1 - num2
+    print("num1 minus num2 is", anss)
+    return answers
+
+print(input("Enter function:\n"))
+print(input(Multiplied(answerm)))
+print(input(Div(answerd)))
+print(input(Add(answera)))
+print(input(Sub(answers)))

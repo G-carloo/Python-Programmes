@@ -1,0 +1,8 @@
+Sum1=open('Sum.txt', 'w+')
+Number1=int(input("Please Enter your first Number:\n"))
+Number2=int(input("Please Enter your first Number:\n"))
+Fun=input("Please Enter your FuN\n")
+
+ANS1=Number1 * Number2
+Sum1.write(str(ANS1))
+Sum1.close()

@@ -1,0 +1,8 @@
+import Module
+
+mark1 = int(input("Please enter your first mark;\n"))
+mark2 = int(input("Please enter your second mark:\n"))
+mark3 = int(input("Please enter your third mark:\n"))
+
+intaverage = Module.marks(mark1,mark2,mark3)
+print("The average mark is", intaverage)

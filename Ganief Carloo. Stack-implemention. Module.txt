@@ -1,0 +1,6 @@
+def marks(mk1, mk2, mk3):
+    """
+    >>> marks(26, 64, 78)
+    56
+    """
+    return  (mk1 + mk2 + mk3)//3

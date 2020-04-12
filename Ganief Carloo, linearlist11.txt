@@ -1,0 +1,13 @@
+def linear(list11, no):
+    for i in range (len(list11)):
+        if no == list11[i]:
+            print("Number found at index:", i)
+            break
+
+    else:
+            print("Number not found!")
+
+list11=(11, 22, 33, 44, 55, 11, 66, 77, 88, 99,)
+print(list11)
+no = int(input("Enter your Number.:\n"))
+linear(list11, no)

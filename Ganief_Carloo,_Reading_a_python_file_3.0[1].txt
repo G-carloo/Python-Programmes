@@ -1,0 +1,16 @@
+#defining  a function with one parameters
+def selection_sort(selection_file):
+    count = 0
+    for line in selection_sort:
+        if line.partition('#')[0]:
+            count = count + 1
+        return count
+#openinig the file for reading
+    selection_file = open('selection_sort[1].py', 'r')
+    selection_file.readlines()
+
+#calling the function and  printing out the number of lines
+print("The number of lines are ", selection_sort(selection_file))
+
+#closing the file
+selection_sort().close

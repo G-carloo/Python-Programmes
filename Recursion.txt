@@ -1,0 +1,15 @@
+def rec(p):
+    if len(p)<1:
+        return True
+    else:
+        if p[0] == p[-1]:
+            return rec (p[1:-1])
+        else:
+            return False
+
+p= str(input("Please enter your word:\n"))
+
+if (rec(p) == True):
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")s

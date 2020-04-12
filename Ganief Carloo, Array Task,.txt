@@ -1,0 +1,13 @@
+from array import *
+#Create the array
+
+arr = [15, 24, 36, 48, 51, 69, 78, 83, 92, 95]
+sum = 0
+
+for i in range(0, len(arr)):
+    sum = sum + arr[i];
+
+print("The sum of the array is:"+ str(sum));
+
+average = sum // 10
+print("And the average is:"
